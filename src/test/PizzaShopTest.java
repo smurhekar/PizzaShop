@@ -16,15 +16,12 @@ public class PizzaShopTest {
 	@Test
 	public void shouldBeAbleToOrderPizza(){
 		PizzaShop shop = new PizzaShop();
-		Pizza american = new American();
-		assertEquals("American: 5.0\nTotal=5.0", shop.order(american));
+		assertEquals("American: 5.0\nTotal=5.0", shop.order(new American()));
 	}
 	
 	@Test
 	public void shouldBeAbleToOrderMoreThanOnePizza(){
 		PizzaShop shop = new PizzaShop();
-		Pizza american = new American();
-		Pizza indian = new Indian();
-		assertEquals("American: 5.0\nIndian: 4.0\nTotal=9.0", shop.order(american, indian));
+		assertEquals("American: 5.0\nIndian: 4.0\nTotal=9.0", shop.order(new American(), new Indian()));
 	}
 }

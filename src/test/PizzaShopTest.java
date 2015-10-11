@@ -16,9 +16,8 @@ public class PizzaShopTest {
 	@Test
 	public void shouldBeAbleToOrderPizza(){
 		PizzaShop shop = new PizzaShop();
-		Pizza americanPizza = new American();
-		
-		assertEquals("American: 5.0\nTotal=5.0", shop.order(americanPizza));
+		Pizza american = new American();
+		assertEquals("American: 5.0\nTotal=5.0", shop.order(american));
 	}
 	
 	@Test

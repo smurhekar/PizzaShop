@@ -1,13 +1,9 @@
 package main;
 
-public class Indian extends Pizza {
-
-	public Indian() {
-		super("Indian");
-	}
+public class Indian implements Pizza {
 
 	@Override
-	public double getPrice() {
+	public double price() {
 		return 4.0;
 	}
 	

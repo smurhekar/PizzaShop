@@ -7,7 +7,7 @@ public class PizzaShop {
 		StringBuilder order = new StringBuilder();
 		for (Pizza pizza : pizzas) {
 			order.append(pizza.toString()+"\n");
-			total = total + pizza.getPrice();
+			total = total + pizza.price();
 		}
 		return order.append("Total="+total).toString();
 	}

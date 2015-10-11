@@ -1,13 +1,9 @@
 package main;
 
-public class American extends Pizza{
-
-	public American() {
-		super("American");
-	}
+public class American implements Pizza{
 
 	@Override
-	public double getPrice() {
+	public double price() {
 		return 5.0;
 	}
 	

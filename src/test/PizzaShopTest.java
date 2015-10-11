@@ -1,8 +1,10 @@
 package test;
 
-import org.junit.Test;
+import static main.Pizza.AMERICAN;
 import static org.junit.Assert.assertEquals;
 import main.PizzaShop;
+
+import org.junit.Test;
 
 
 public class PizzaShopTest {
@@ -10,6 +12,6 @@ public class PizzaShopTest {
 	@Test
 	public void shouldBeAbleToOrderPizza(){
 		PizzaShop shop = new PizzaShop();
-		assertEquals("American: 5.0", shop.order("American", 5d));
+		assertEquals("American: 5.0", shop.order(AMERICAN));
 	}
 }

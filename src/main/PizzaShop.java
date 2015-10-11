@@ -2,8 +2,8 @@ package main;
 
 public class PizzaShop {
 
-	public String order(String pizza, double price) {
-		return pizza + ": " + price;
+	public String order(Pizza pizza) {
+		return pizza.getName() + ": " + pizza.getPrice();
 	}
 
 }

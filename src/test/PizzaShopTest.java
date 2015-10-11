@@ -1,11 +1,8 @@
 package test;
 
-//import static main.Pizza.AMERICAN;
-//import static main.Pizza.INDIAN;
 import static org.junit.Assert.assertEquals;
 import main.American;
 import main.Indian;
-import main.Pizza;
 import main.PizzaShop;
 
 import org.junit.Test;

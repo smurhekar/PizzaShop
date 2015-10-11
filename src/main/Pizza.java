@@ -1,10 +1,10 @@
 package main;
 
-public enum Pizza {
+public class Pizza {
 	
-	AMERICAN("American",5.0),
-	INDIAN("Indian",4.0),
-	MEXICAN("Mexican",6.0);
+	public final static Pizza AMERICAN = new Pizza("American",5.0);
+	public final static Pizza INDIAN = new Pizza("Indian",4.0);
+	public final static Pizza MEXICAN = new Pizza("Mexican",6.0);
 
 	private double price;
 	private String name;
@@ -12,10 +12,6 @@ public enum Pizza {
 	private Pizza(String name, double price) {
 		this.name = name;
 		this.price = price;
-	}
-	
-	public String getName(){
-		return name;
 	}
 	
 	public double getPrice(){

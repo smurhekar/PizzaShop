@@ -1,6 +1,10 @@
 package main;
 
-public class Indian implements Pizza {
+public class Indian extends Pizza {
+
+	public Indian(Base base) {
+		super(base);
+	}
 
 	@Override
 	public double price() {

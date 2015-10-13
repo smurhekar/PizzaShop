@@ -1,6 +1,6 @@
 package main;
 
-public interface Base {
+public interface Extra {
 	double price();
 //	String name();
 }

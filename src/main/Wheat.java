@@ -1,6 +1,6 @@
 package main;
 
-public class Wheat implements Base{
+public class Wheat implements Extra{
 
 	@Override
 	public double price() {

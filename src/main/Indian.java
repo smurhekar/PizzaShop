@@ -2,18 +2,18 @@ package main;
 
 public class Indian extends Pizza {
 
-	public Indian(Base base) {
+	public Indian(Extra base) {
 		super(base);
 	}
 
 	@Override
 	public double price() {
-		return 4.0;
+		return 4.0 + total();
 	}
 	
 	@Override
 	public String toString(){
-		return "Indian" + ": " + 4.0;
+		return "Indian" + ": " + (4.0 + total());
 	}
 
 }

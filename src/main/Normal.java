@@ -1,6 +1,6 @@
 package main;
 
-public class Normal implements Base {
+public class Normal implements Extra {
 
 	@Override
 	public double price() {

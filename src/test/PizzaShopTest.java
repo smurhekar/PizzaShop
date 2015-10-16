@@ -1,14 +1,14 @@
 package test;
 
 import static org.junit.Assert.assertEquals;
-import main.American;
-import main.Indian;
-import main.Normal;
-import main.PanCrust;
+import main.shop.pizza.American;
+import main.shop.pizza.Indian;
+import main.shop.pizza.base.Normal;
+import main.shop.pizza.crust.PanCrust;
 import main.PizzaShop;
-import main.ThickCrust;
-import main.ThinCrust;
-import main.Wheat;
+import main.shop.pizza.crust.ThickCrust;
+import main.shop.pizza.crust.ThinCrust;
+import main.shop.pizza.base.Wheat;
 
 import org.junit.Test;
 

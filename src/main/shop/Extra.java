@@ -1,6 +1,5 @@
-package main;
+package main.shop;
 
 public interface Extra {
 	double price();
-//	String name();
 }

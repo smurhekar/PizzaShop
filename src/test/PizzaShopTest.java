@@ -12,6 +12,7 @@ import main.shop.pizza.base.Wheat;
 
 import main.shop.pizza.toppings.BlackOlives;
 import main.shop.pizza.toppings.CrispCapsicum;
+import main.shop.pizza.toppings.GoldenCorn;
 import main.shop.pizza.toppings.Mashroom;
 import org.junit.Test;
 
@@ -67,5 +68,13 @@ public class PizzaShopTest {
         american.add(new Mashroom());
         assertEquals("American: 5.15\nTotal=5.15", new PizzaShop().order(american));
     }
-   
+
+    @Test
+    public void shouldNotBeAbleToAddMoreThanThreeToppingsToPizza(){
+        American american = new American(new BlackOlives());
+        american.add(new CrispCapsicum());
+        american.add(new Mashroom());
+        american.add(new GoldenCorn());
+        assertEquals("American: 5.15\nTotal=5.15", new PizzaShop().order(american));
+    }
 }

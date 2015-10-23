@@ -10,6 +10,9 @@ import main.shop.pizza.crust.ThickCrust;
 import main.shop.pizza.crust.ThinCrust;
 import main.shop.pizza.base.Wheat;
 
+import main.shop.pizza.toppings.BlackOlives;
+import main.shop.pizza.toppings.CrispCapsicum;
+import main.shop.pizza.toppings.Mashroom;
 import org.junit.Test;
 
 
@@ -56,4 +59,13 @@ public class PizzaShopTest {
 		american.add(new PanCrust());
 		assertEquals("American: 5.25\nTotal=5.25", shop.order(american));
 	}
+
+    @Test
+    public void shouldBeAbleToOrderAmericanPizzaWithToppings(){
+        American american = new American(new BlackOlives());
+        american.add(new CrispCapsicum());
+        american.add(new Mashroom());
+        assertEquals("American: 5.15\nTotal=5.15", new PizzaShop().order(american));
+    }
+   
 }

@@ -1,6 +1,6 @@
 package main.shop.pizza.crust;
 
-import main.Extra;
+import main.shop.Extra;
 
 public class ThinCrust implements Extra {
 

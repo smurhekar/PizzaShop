@@ -5,7 +5,7 @@ import main.shop.pizza.American;
 import main.shop.pizza.Indian;
 import main.shop.pizza.base.Normal;
 import main.shop.pizza.crust.PanCrust;
-import main.PizzaShop;
+import main.shop.PizzaShop;
 import main.shop.pizza.crust.ThickCrust;
 import main.shop.pizza.crust.ThinCrust;
 import main.shop.pizza.base.Wheat;

@@ -1,6 +1,6 @@
 package main.shop.pizza;
 
-import main.Extra;
+import main.shop.Extra;
 
 import java.util.ArrayList;
 import java.util.List;

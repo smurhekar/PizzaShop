@@ -1,6 +1,6 @@
 package main.shop.pizza.base;
 
-import main.Extra;
+import main.shop.Extra;
 
 public class Normal implements Extra {
 

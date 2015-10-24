@@ -5,11 +5,14 @@ As an upcoming entrepreneur, I am all excited to start my own pizza corner. I wa
 American - 5$
 Indian - 4$
 Mexican - 6$
-Other than price, here is what’s different:-
+Other than price, here is whatï¿½s different:-
 
 Heating temperature - Say American Pizza would be heated @ 200 Degrees while Indian would be @ 225 & Mexican would be @ 275
 Cheese - American Cheddar Cheese, Indian - Mozzarella Cheese, Mexican - Parmigiano Cheese
-While selecting a pizza, one can choose to 1. Select a pizza base (Normal or Wheat) - Normal Included in Cost of base Pizza, Wheat - 1 $ 2. Select (Thick crust or Thin crust or Pan) - Thick Crust Included in cost, Thin Crust - .5 $ extra, Pan Pizza - .75 $ less 3. Additional toppings - Maximum toppings can be up to 3.
+While selecting a pizza, one can choose to
+1. Select a pizza base (Normal or Wheat) - Normal Included in Cost of base Pizza, Wheat - 1 $
+2. Select (Thick crust or Thin crust or Pan) - Thick Crust Included in cost, Thin Crust - .5 $ extra, Pan Pizza - .75 $ less
+3. Additional toppings - Maximum toppings can be up to 3.
 
 a. Black Olives
 
@@ -31,9 +34,9 @@ i. Gherkins & Babycorn
 
 a to d has a price tag associated of .5 $, e to f has a price tag of .60 and g to i has a price tag of .75$
 
-Pineapple can’t be selected with Jalapeno
+Pineapple canï¿½t be selected with Jalapeno
 
-Red Pepper can’t be selected with Mushroom
+Red Pepper canï¿½t be selected with Mushroom
 
 (In future I may put more restrictions or reduce my restrictions) Other inputs:-
 

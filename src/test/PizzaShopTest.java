@@ -1,15 +1,19 @@
 package test;
 
 import static org.junit.Assert.assertEquals;
-import main.American;
-import main.Indian;
-import main.Normal;
-import main.PanCrust;
-import main.PizzaShop;
-import main.ThickCrust;
-import main.ThinCrust;
-import main.Wheat;
+import main.shop.pizza.American;
+import main.shop.pizza.Indian;
+import main.shop.pizza.base.Normal;
+import main.shop.pizza.crust.PanCrust;
+import main.shop.PizzaShop;
+import main.shop.pizza.crust.ThickCrust;
+import main.shop.pizza.crust.ThinCrust;
+import main.shop.pizza.base.Wheat;
 
+import main.shop.pizza.toppings.BlackOlives;
+import main.shop.pizza.toppings.CrispCapsicum;
+import main.shop.pizza.toppings.GoldenCorn;
+import main.shop.pizza.toppings.Mashroom;
 import org.junit.Test;
 
 
@@ -56,4 +60,21 @@ public class PizzaShopTest {
 		american.add(new PanCrust());
 		assertEquals("American: 5.25\nTotal=5.25", shop.order(american));
 	}
+
+    @Test
+    public void shouldBeAbleToOrderAmericanPizzaWithToppings(){
+        American american = new American(new BlackOlives());
+        american.add(new CrispCapsicum());
+        american.add(new Mashroom());
+        assertEquals("American: 5.15\nTotal=5.15", new PizzaShop().order(american));
+    }
+
+    @Test
+    public void shouldNotBeAbleToAddMoreThanThreeToppingsToPizza(){
+        American american = new American(new BlackOlives());
+        american.add(new CrispCapsicum());
+        american.add(new Mashroom());
+        american.add(new GoldenCorn());
+        assertEquals("American: 5.15\nTotal=5.15", new PizzaShop().order(american));
+    }
 }

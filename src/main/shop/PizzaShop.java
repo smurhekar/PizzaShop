@@ -1,4 +1,6 @@
-package main;
+package main.shop;
+
+import main.shop.pizza.Pizza;
 
 public class PizzaShop {
 

@@ -1,6 +1,8 @@
-package main;
+package main.shop.pizza;
 
-public class American extends Pizza{
+import main.shop.Extra;
+
+public class American extends Pizza {
 
 
 	public American(Extra base) {

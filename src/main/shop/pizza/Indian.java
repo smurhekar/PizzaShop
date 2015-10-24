@@ -1,4 +1,6 @@
-package main;
+package main.shop.pizza;
+
+import main.shop.Extra;
 
 public class Indian extends Pizza {
 
